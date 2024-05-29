@@ -1,0 +1,5 @@
+name: Deploy build to s3
+description: Depoy the build object to s3 bucket
+runs:
+  using: 'node20'
+  main: 'main.js'
